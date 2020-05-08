@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        label {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+
+        input,
+        textarea,
+        span {
+            padding: 3px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        span {
+            padding-left: 5px;
+        }
+
+        .margin {
+            margin: auto;
+        }
+
+        .width {
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .bg-color {
+            background-color: blueviolet;
+            padding: 20px;
+        }
+
+        .table2 {
+            width: 100%;
+
+        }
+
+        .table2 td,
+        label {
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+
+        .headingtext {
+            font-size: 2em;
+            color: blueviolet;
+            letter-spacing: 2;
+            font-weight: bolder;
+            text-decoration: underline;
+
+        }
+    </style>
+</head>
+</body>
+<section>
+    <section>
+        <header class="width">
+            <img src="images/saylanilogo.png" alt="">
+            <p class="headingtext">Student Registration Form</p>
+        </header>
+    </section>
+    <section>
+        <table class="bg-color margin">
+            <form action="">
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text" placeholder="Enter First Name"><span>Max 30 characters a-z and A-Z</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name</label></td>
+                    <td><input type="text" placeholder="Enter Last Name"><span>Max 30 characters a-z and A-Z</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="date" name="Data of Birth" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" name="" id="" placeholder="Enter Email address"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile Number</label></td>
+                    <td><input type="number" name="" id=""><span>Only 10 digit</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Gender</label></td>
+                    <td><label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">City</label></td>
+                    <td><input type="text" placeholder="Enter Your City "><span>Max 30 characters a-z and A-Z</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Pin Code</label></td>
+                    <td><input type="text" placeholder="Enter pincode"><span>6 digit number</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">State</label></td>
+                    <td><input type="text" placeholder="Enter State "><span>Max 30 characters a-z and A-Z</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Country</label></td>
+                    <td><input type="text" placeholder="Enter Country"></td>
+                </tr>
+                <tr>
+
+                    <td><label for="">Hobbies</label></td>
+                    <td><input type="checkbox" name="Drawing" id="drawing" value="Drawing"><label
+                            for="drawing">Drawing</label>
+                        <input type="checkbox" name="Singing" id="Singing" value="Singing"><label
+                            for="Singing">Singing</label>
+                        <input type="checkbox" name="Dancing" id="Dancing" value="Dancing"><label
+                            for="Dancing">Dancing</label>
+                        <input type="checkbox" name="Sketching" id="Sketching" value="Sketching">
+                        <label for="Sketching">Sketching</label><br>
+                        <label for="">Other</label><input type="checkbox" name="Other" id="other" value="Other">
+                        <input type="text" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Qualification</label></td>
+                    <td>
+                        <table class="table2">
+                            <th>S.No</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>(10 char Only)</td>
+                                <td>(upto 2 decimal)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td><label for="">Courses applied For</label></td>
+                    <td><label for="BCA">BCA</label><input type="radio" name="Qualification" id="BCA">
+                        <label for="Bcom">Bcom</label><input type="radio" name="Qualification" id="Bcom">
+                        <label for="BSC">BSC</label><input type="radio" name="Qualification" id="BSC">
+                        <label for="BA">BA</label><input type="radio" name="Qualification" id="BA"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="success.html"><input type="button" value="Submit"></a>&nbsp;&nbsp;<input type="button"
+                            value="Reset"></td>
+                </tr>
+
+            </form>
+        </table>
+    </section>
+    <section
+        style="text-align: center;margin-top: 20px;margin-bottom: 20px;font-size: 2em;color: blueviolet;font-style: bolder;">
+        <a href="index.html">Go Back to Home page</a>
+    </section>
+</section>
+</body>
+
+</html>

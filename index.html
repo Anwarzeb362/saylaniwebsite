@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href=https://tomhodgins.github.io/preset/preset.css rel=stylesheet>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courgette', cursive
+        }
+
+        /*Header Style */
+        .header {
+            margin: 0;
+            width: 100%;
+            background-color: #101820FF;
+        }
+
+        .padding {
+            padding: 3% 5%;
+            color: #FEE715FF;
+        }
+
+        .padding h1,
+        p {
+            margin-top: 1%;
+        }
+
+        .padding h1 {
+            font-size: 32px;
+            font-family: 'Courgette', cursive;
+        }
+
+        .padding p {
+            font-family: 'Courgette', cursive
+        }
+
+        /*Project section*/
+        .text-main {
+            font-weight: bolder;
+            font-family: 'Courgette', 'cursive';
+            font-size: 2em;
+            text-align: center;
+            color: rgb(47, 63, 80);
+        }
+
+        .project-section {
+            margin: 1% 4%;
+        }
+
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 25%;
+            margin: 1%;
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            /* this adds the "card" effect */
+            padding: 20%;
+            text-align: center;
+            background-color: #FEE715FF;
+
+        }
+
+        .card a {
+            text-decoration: none;
+            font-size: 1.3em;
+            color: #101820FF;
+        }
+
+        .card:hover {
+            background-color: rgb(252, 238, 118);
+        }
+
+
+        /* Responsive columns - one column layout (vertical) on small screens */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--    <section class="margin">
+        <ol class="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="periodictable.html">Periodic Table</a></li>
+            <li><a href="form.html">Registration Form</a></li>
+        </ol>
+    </section>-->
+    <section class="header">
+        <header class="padding">
+            <h1>Anwer Zeb</h1>
+            <p>Roll no 2276</p>
+            <p>Saylani Mass It training program(online)</p>
+        </header>
+    </section>
+    <div class="row">
+        <p class="text-main">Assignments</p>
+    </div>
+    <section class="project-section">
+        <div class="row">
+            <div class="column">
+                <div class="card"><a href="periodictable.html">Periodic Table</a></div>
+            </div>
+            <div class="column">
+                <div class="card"><a href="form.html">Registration Form</a></div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
